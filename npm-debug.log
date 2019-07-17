@@ -1,0 +1,378 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node',
+12 silly mapToRegistry   name: 'node',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 verbose request uri https://registry.npmjs.org/node
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:58:43 PM
+17 verbose request id 62a2b04b1337c1de
+18 http request GET https://registry.npmjs.org/node
+19 http 200 https://registry.npmjs.org/node
+20 verbose headers { date: 'Wed, 17 Jul 2019 17:58:45 GMT',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie': [ '__cfduid=d885b12d582dee419fbf03517638c67e81563386325; expires=Thu, 16-Jul-20 17:58:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+20 verbose headers   'cf-cache-status': 'HIT',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'cf-ray': '4f7e1b18eb30c1f2-IAD',
+20 verbose headers   age: '3071',
+20 verbose headers   etag: 'W/"04867d7939ba1631128f174cafd607f1"',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'last-modified': 'Thu, 04 Jul 2019 02:01:55 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   'x-amz-meta-rev': '483-964408f14c0301d3625c5c4d702f00b2',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Wed, 17 Jul 2019 17:58:45 GMT',
+21 silly get     'content-type': 'application/json',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie': [ '__cfduid=d885b12d582dee419fbf03517638c67e81563386325; expires=Thu, 16-Jul-20 17:58:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+21 silly get     'cf-cache-status': 'HIT',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'cf-ray': '4f7e1b18eb30c1f2-IAD',
+21 silly get     age: '3071',
+21 silly get     etag: 'W/"04867d7939ba1631128f174cafd607f1"',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'last-modified': 'Thu, 04 Jul 2019 02:01:55 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     'x-amz-meta-rev': '483-964408f14c0301d3625c5c4d702f00b2',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving node to /Users/zgoldman/.npm/registry.npmjs.org/node/.cache.json
+23 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule node@12.6.0 checking installable status
+37 silly cache add args [ 'node', null ]
+38 verbose cache add spec node
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'node',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'node',
+39 silly cache add   name: 'node',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed node@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for node
+42 info addNameTag [ 'node', 'latest' ]
+43 silly mapToRegistry name node
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'node',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'node',
+46 silly mapToRegistry   name: 'node',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/node
+48 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+49 verbose get https://registry.npmjs.org/node not expired, no request
+50 silly addNameTag next cb for node with tag latest
+51 silly addNamed node@12.6.0
+52 verbose addNamed "12.6.0" is a plain semver version for node
+53 silly mapToRegistry name node
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'node',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'node',
+56 silly mapToRegistry   name: 'node',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/node
+58 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-12.6.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-12.6.0.tgz',
+59 verbose addRemoteTarball   '19cff21c4753c771055392a06e36076df97ee78a' ]
+60 info retry fetch attempt 1 at 1:58:43 PM
+61 info attempt registry request try #1 at 1:58:43 PM
+62 http fetch GET https://registry.npmjs.org/node/-/node-12.6.0.tgz
+63 http fetch 200 https://registry.npmjs.org/node/-/node-12.6.0.tgz
+64 silly fetchAndShaCheck shasum 19cff21c4753c771055392a06e36076df97ee78a
+65 verbose addTmpTarball /var/folders/40/9rdxg32d36x5pdtj5rmykvkr0000gn/T/npm-35657-7f443e41/registry.npmjs.org/node/-/node-12.6.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for node@12.6.0
+67 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd node@12.6.0
+69 verbose afterAdd /Users/zgoldman/.npm/node/12.6.0/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/zgoldman/.npm/node/12.6.0/package/package.json written
+72 silly fetchNamedPackageData node-bin-setup
+73 silly mapToRegistry name node-bin-setup
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'node-bin-setup',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'node-bin-setup',
+76 silly mapToRegistry   name: 'node-bin-setup',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+78 verbose request uri https://registry.npmjs.org/node-bin-setup
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 1:58:43 PM
+81 http request GET https://registry.npmjs.org/node-bin-setup
+82 http 200 https://registry.npmjs.org/node-bin-setup
+83 verbose headers { date: 'Wed, 17 Jul 2019 17:58:46 GMT',
+83 verbose headers   'content-type': 'application/json; charset=UTF-8',
+83 verbose headers   'transfer-encoding': 'chunked',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'set-cookie': [ '__cfduid=d831fcec4b38406c899edc018fdc3f5691563386326; expires=Thu, 16-Jul-20 17:58:46 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+83 verbose headers   'cf-cache-status': 'HIT',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'cf-ray': '4f7e1b1a5f58c1f2-IAD',
+83 verbose headers   age: '5511',
+83 verbose headers   etag: 'W/"696d6ec470fda56a33885508a280edab"',
+83 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+83 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+83 verbose headers   vary: 'accept-encoding, accept',
+83 verbose headers   server: 'cloudflare',
+83 verbose headers   'content-encoding': 'gzip' }
+84 silly get cb [ 200,
+84 silly get   { date: 'Wed, 17 Jul 2019 17:58:46 GMT',
+84 silly get     'content-type': 'application/json; charset=UTF-8',
+84 silly get     'transfer-encoding': 'chunked',
+84 silly get     connection: 'keep-alive',
+84 silly get     'set-cookie': [ '__cfduid=d831fcec4b38406c899edc018fdc3f5691563386326; expires=Thu, 16-Jul-20 17:58:46 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+84 silly get     'cf-cache-status': 'HIT',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'cf-ray': '4f7e1b1a5f58c1f2-IAD',
+84 silly get     age: '5511',
+84 silly get     etag: 'W/"696d6ec470fda56a33885508a280edab"',
+84 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+84 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+84 silly get     vary: 'accept-encoding, accept',
+84 silly get     server: 'cloudflare',
+84 silly get     'content-encoding': 'gzip' } ]
+85 verbose get saving node-bin-setup to /Users/zgoldman/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+86 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+87 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+88 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+89 verbose cache add spec node-bin-setup@^1.0.0
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'node-bin-setup@^1.0.0',
+90 silly cache add   scope: null,
+90 silly cache add   escapedName: 'node-bin-setup',
+90 silly cache add   name: 'node-bin-setup',
+90 silly cache add   rawSpec: '^1.0.0',
+90 silly cache add   spec: '>=1.0.0 <2.0.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+92 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+93 silly addNameRange { name: 'node-bin-setup',
+93 silly addNameRange   range: '>=1.0.0 <2.0.0',
+93 silly addNameRange   hasData: false }
+94 silly mapToRegistry name node-bin-setup
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'node-bin-setup',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   escapedName: 'node-bin-setup',
+97 silly mapToRegistry   name: 'node-bin-setup',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+99 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+100 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+101 silly addNameRange number 2 { name: 'node-bin-setup',
+101 silly addNameRange   range: '>=1.0.0 <2.0.0',
+101 silly addNameRange   hasData: true }
+102 silly addNameRange versions [ 'node-bin-setup',
+102 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+103 silly addNamed node-bin-setup@1.0.6
+104 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+105 silly mapToRegistry name node-bin-setup
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'node-bin-setup',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'node-bin-setup',
+108 silly mapToRegistry   name: 'node-bin-setup',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+110 verbose addRemoteTarball https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz',
+111 verbose addRemoteTarball   '4b5c9bb937ece702d7069b36ca78af4684677528' ]
+112 info retry fetch attempt 1 at 1:58:43 PM
+113 info attempt registry request try #1 at 1:58:43 PM
+114 http fetch GET https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+115 http fetch 200 https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz
+116 silly fetchAndShaCheck shasum 4b5c9bb937ece702d7069b36ca78af4684677528
+117 verbose addTmpTarball /var/folders/40/9rdxg32d36x5pdtj5rmykvkr0000gn/T/npm-35657-7f443e41/registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for node-bin-setup@1.0.6
+119 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+120 silly cache afterAdd node-bin-setup@1.0.6
+121 verbose afterAdd /Users/zgoldman/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+122 verbose correctMkdir /Users/zgoldman/.npm correctMkdir not in flight; initializing
+123 verbose afterAdd /Users/zgoldman/.npm/node-bin-setup/1.0.6/package/package.json written
+124 silly loadAllDepsIntoIdealTree Finishing
+125 silly loadIdealTree Finishing
+126 silly currentTree sp-three-gram
+127 silly idealTree sp-three-gram
+127 silly idealTree ├── node-bin-setup@1.0.6
+127 silly idealTree └── node@12.6.0
+128 silly generateActionsToTake Starting
+129 silly install generateActionsToTake
+130 silly generateActionsToTake Finishing
+131 silly diffTrees action count 2
+132 silly diffTrees add node-bin-setup@1.0.6
+133 silly diffTrees add node@12.6.0
+134 silly decomposeActions action count 16
+135 silly decomposeActions fetch node-bin-setup@1.0.6
+136 silly decomposeActions extract node-bin-setup@1.0.6
+137 silly decomposeActions test node-bin-setup@1.0.6
+138 silly decomposeActions preinstall node-bin-setup@1.0.6
+139 silly decomposeActions build node-bin-setup@1.0.6
+140 silly decomposeActions install node-bin-setup@1.0.6
+141 silly decomposeActions postinstall node-bin-setup@1.0.6
+142 silly decomposeActions finalize node-bin-setup@1.0.6
+143 silly decomposeActions fetch node@12.6.0
+144 silly decomposeActions extract node@12.6.0
+145 silly decomposeActions test node@12.6.0
+146 silly decomposeActions preinstall node@12.6.0
+147 silly decomposeActions build node@12.6.0
+148 silly decomposeActions install node@12.6.0
+149 silly decomposeActions postinstall node@12.6.0
+150 silly decomposeActions finalize node@12.6.0
+151 silly runTopLevelLifecycles Starting
+152 silly executeActions Starting
+153 silly install executeActions
+154 silly doSerial global-install 0
+155 silly doParallel fetch 2
+156 verbose correctMkdir /Users/zgoldman/.npm/_locks correctMkdir not in flight; initializing
+157 verbose lock using /Users/zgoldman/.npm/_locks/staging-cb4ff8f189230707.lock for /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging
+158 silly doParallel extract 2
+159 silly extract node-bin-setup@1.0.6
+160 silly extract node@12.6.0
+161 verbose unbuild node_modules/.staging/node-bin-setup-afd64ee0
+162 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0 is being purged from base /Users/zgoldman/Documents/Coding/fun/sp-three-gram
+163 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0
+164 verbose unbuild node_modules/.staging/node-192f481c
+165 verbose tar unpack /Users/zgoldman/.npm/node-bin-setup/1.0.6/package.tgz
+166 verbose tar unpacking to /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0
+167 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0 is being purged
+168 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0
+169 silly gunzTarPerm modes [ '755', '644' ]
+170 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c is being purged from base /Users/zgoldman/Documents/Coding/fun/sp-three-gram
+171 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c
+172 verbose tar unpack /Users/zgoldman/.npm/node/12.6.0/package.tgz
+173 verbose tar unpacking to /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c
+174 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c is being purged
+175 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm extractEntry package.json
+179 silly gunzTarPerm extractEntry index.js
+180 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+181 silly gunzTarPerm extractEntry README.md
+182 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0/node_modules is being purged
+183 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0/node_modules
+184 silly gentlyRm /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c/node_modules is being purged
+185 verbose gentlyRm don't care about contents; nuking /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c/node_modules
+186 silly doParallel preinstall 2
+187 silly preinstall node-bin-setup@1.0.6 /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-bin-setup-afd64ee0
+188 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+189 silly preinstall node@12.6.0 /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c
+190 info lifecycle node@12.6.0~preinstall: node@12.6.0
+191 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+192 verbose lifecycle node@12.6.0~preinstall: unsafe-perm in lifecycle true
+193 verbose lifecycle node@12.6.0~preinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c/node_modules/.bin:/Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.bin:/usr/local/Cellar/node/7.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+194 verbose lifecycle node@12.6.0~preinstall: CWD: /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging/node-192f481c
+195 silly lifecycle node@12.6.0~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+196 silly lifecycle node@12.6.0~preinstall: Returned: code: 1  signal: null
+197 info lifecycle node@12.6.0~preinstall: Failed to exec preinstall script
+198 verbose unlock done using /Users/zgoldman/.npm/_locks/staging-cb4ff8f189230707.lock for /Users/zgoldman/Documents/Coding/fun/sp-three-gram/node_modules/.staging
+199 silly rollbackFailedOptional Starting
+200 silly rollbackFailedOptional Finishing
+201 silly runTopLevelLifecycles Finishing
+202 silly install printInstalled
+203 warn enoent ENOENT: no such file or directory, open '/Users/zgoldman/Documents/Coding/fun/sp-three-gram/package.json'
+204 verbose enoent ENOENT: no such file or directory, open '/Users/zgoldman/Documents/Coding/fun/sp-three-gram/package.json'
+204 verbose enoent This is most likely not a problem with npm itself
+204 verbose enoent and is related to npm not being able to find a file.
+205 warn sp-three-gram No description
+206 verbose If you need help, you may report this error at:
+206 verbose     <https://github.com/npm/npm/issues>
+207 warn sp-three-gram No repository field.
+208 verbose If you need help, you may report this error at:
+208 verbose     <https://github.com/npm/npm/issues>
+209 warn sp-three-gram No README data
+210 verbose If you need help, you may report this error at:
+210 verbose     <https://github.com/npm/npm/issues>
+211 warn sp-three-gram No license field.
+212 verbose If you need help, you may report this error at:
+212 verbose     <https://github.com/npm/npm/issues>
+213 verbose stack Error: node@12.6.0 preinstall: `node installArchSpecificPackage`
+213 verbose stack Exit status 1
+213 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+213 verbose stack     at emitTwo (events.js:106:13)
+213 verbose stack     at EventEmitter.emit (events.js:191:7)
+213 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+213 verbose stack     at emitTwo (events.js:106:13)
+213 verbose stack     at ChildProcess.emit (events.js:191:7)
+213 verbose stack     at maybeClose (internal/child_process.js:877:16)
+213 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+214 verbose pkgid node@12.6.0
+215 verbose cwd /Users/zgoldman/Documents/Coding/fun/sp-three-gram
+216 error Darwin 18.6.0
+217 error argv "/usr/local/Cellar/node/7.0.0/bin/node" "/usr/local/bin/npm" "install" "node"
+218 error node v7.0.0
+219 error npm  v3.10.8
+220 error code ELIFECYCLE
+221 error node@12.6.0 preinstall: `node installArchSpecificPackage`
+221 error Exit status 1
+222 error Failed at the node@12.6.0 preinstall script 'node installArchSpecificPackage'.
+222 error Make sure you have the latest version of node.js and npm installed.
+222 error If you do, this is most likely a problem with the node package,
+222 error not with npm itself.
+222 error Tell the author that this fails on your system:
+222 error     node installArchSpecificPackage
+222 error You can get information on how to open an issue for this project with:
+222 error     npm bugs node
+222 error Or if that isn't available, you can get their info via:
+222 error     npm owner ls node
+222 error There is likely additional logging output above.
+223 verbose exit [ 1, true ]

@@ -1,0 +1,23 @@
+{
+  "name": "sp-three-gram",
+  "version": "1.0.0",
+  "description": "Zachary Goldman 7/17/19 Sparkpost Takehome: Trigrams",
+  "main": "trigram.js",
+  "dependencies": {
+    "ts-postgres": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgoldman11/sp-three-gram.git"
+  },
+  "author": "Zachary Goldman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgoldman11/sp-three-gram/issues"
+  },
+  "homepage": "https://github.com/zgoldman11/sp-three-gram#readme"
+}
