@@ -10,11 +10,12 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
+//read input
 var recursiveInputLoop = function () {
   rl.question('', function (answer) {
   	inputs = answer.split(" ")
-    if (answer == 'exit') //we need some base case, for recursion
-      return rl.close(); //closing RL and returning from function.
+    if (answer == 'exit') 
+      return rl.close(); 
   	else if (answer.split(" ")[0] == "upload"){
   		filename = inputs[1]
   		ftext = get_tokens(filename)
@@ -38,7 +39,7 @@ var recursiveInputLoop = function () {
   	else{
   		console.log("See readme for usage")
   	}
-    recursiveInputLoop(); //Calling this function again to ask new question
+    recursiveInputLoop(); 
   });
 };
 recursiveInputLoop();
@@ -88,6 +89,7 @@ function get_trigrams(tlist){
 	return(trigrams);
 }
 
+//print filesize and number of trigrams
 function get_file_info(filename){
 	var filesize = fs.statSync(filename).size
 	console.log("Filesize: " + filesize + " bytes")
@@ -99,6 +101,7 @@ function get_file_info(filename){
 	console.log("Number of trigrams: " + tcount)
 }
 
+//prints generated file to stdout
 function generate_file(filename, size, seed1, seed2){
 	var text = []
 	var t2 = ""
@@ -109,7 +112,6 @@ function generate_file(filename, size, seed1, seed2){
 	var sSize = 0
 	for(var l = 2; l < size; l++){
 		if(tg[tup]){
-			//console.log([...tg[tup]][0])
 			sSize = tg[tup].size
 			text[l] = [...tg[tup]][l%sSize]
 			tup = [text[l-1],[text[l]]]
@@ -130,12 +132,3 @@ function generate_file(filename, size, seed1, seed2){
 	}
 	console.log(t2)
 }
-// for(var key in trigrams){
-// 	// console.log("____________");
-// 	// console.log(key);
-// 	// console.log(trigrams[key]);
-// }
-// console.log(trigrams["children,,"])
-// console.log(process.argv[2])
-
-

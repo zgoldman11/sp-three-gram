@@ -18,3 +18,4 @@ then:
 "generate file= filename maxSize= size seedWords= word1 word2"
 "exit" to exit
 
+readline function inspired from: https://stackoverflow.com/questions/24464404/how-to-readline-infinitely-in-node-js
